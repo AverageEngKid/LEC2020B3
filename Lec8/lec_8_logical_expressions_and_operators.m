@@ -22,10 +22,10 @@ var2 = false;
 
 inputVal = input('Enter a number: ');
 isZero = inputVal == 0;
-isPositive = inputVal > 0;
 isNegative = inputVal < 0;
 
 
+\
 % logical operators
 % =================
 
@@ -37,8 +37,8 @@ isNegative = inputVal < 0;
 5 < 4 && 'a' == 'c'  % the second operand is not even evaluated -- short circuit
 
 % negation
-~ (4 < 5)
-~ 4 < 5    % Refer chapter 2, page 67, Table 2.1 for operator precedence
+~ (5 < 1)
+~ 5 < 4    % Refer chapter 2, page 67, Table 2.1 for operator precedence
 
 % function forms of OR and AND operators
 or(2 < 4, 'a' == 'c')
